@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fff9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #2798F5;
+  text-align: center;
+}
+
+form {
+  background-color: #ffffff;
+  border: 2px solid #2798F5;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 10);
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+select[multiple] {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #2798F5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #274DF5;
+}
